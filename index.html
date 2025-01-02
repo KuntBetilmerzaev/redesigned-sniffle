@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="engit remote add origin git@github.com:KuntBetilmerzaev/literate-garbanzo.git">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+    <header>
+        <span>IT-INCUBATOR</span>
+    </header>
+    <section  data-cy="hw1-section-main-pre">
+        <h1>Бетильмерзаев Кунт Хасмагомедович</h1>
+        <p>Учусь в нефтяном университете, также дополнительно учусь на Frontend-разработчика в IT-INCUBATOR. Надеюсь свзать с этим свою жизнь</p>
+        <img src="images/image.png" alt="image">
+    </section>
+
+    <section data-cy="hw1-section-about-pre">
+        <select>
+            <option>Грозный</option>
+            <option selected>Урус-Мартан</option>
+            <option>Махачкала</option>
+        </select>
+        <div data-cy="hw1-unordered-list-box-pre">
+            <h2>Любимые книги</h2>
+            <ul>
+                <li>Овод</li>
+                <li>Будда и Бунтарь</li>
+                <li>Цветы для Элджернона</li>
+            </ul>
+        </div>
+        <div data-cy="hw1-ordered-list-box-pre">
+            <h2>Любимые фильмы</h2>
+            <ol>
+                <li>Драйв</li>
+                <li>Животное</li>
+                <li>Пока я жив</li>
+            </ol>
+        </div>
+        <div data-cy="hw1-skills-box-pre">
+            <h2>Мои скиллы</h2>
+                <label>
+                    <input type="checkbox" checked>
+                    HTML5
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    CSS3
+                </label>
+
+                <label>
+                    <input type="checkbox" checked>
+                    JS
+                </label>
+        </div>
+        <input placeholder="Новый скилл" type="text">
+        <button>Добавить</button>
+        <hr>
+
+        <table border="" data-cy="hw-about-table-pre">
+            <!-- 8) В таблице сделай 5 строк и 3 столбца. 
+                        - В первой строке ячейки заголовков, в остальных обычные ячейки
+                        - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
+                        - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+            <tr>
+                <th>Номер</th>
+                <th>ФИО</th>
+                <th>Оценка</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Иванов И.И</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Алиев А.А</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Мусаев М.М</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>Средн. оценка</td>
+                <td>4.3</td>
+            </tr>
+        </table>
+    </section>
+    <footer data-cy="hw-footer-pre">
+        <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
+        <a href="https://it-incubator.io/">it-incubator</a>
+    </footer>
+
+</body>
+</html>
