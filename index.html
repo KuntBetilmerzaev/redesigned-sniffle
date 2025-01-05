@@ -4,61 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>   
     <header>
         <span>IT-INCUBATOR</span>
     </header>
-    <section  data-cy="hw1-section-main-pre">
-        <h1>Бетильмерзаев Кунт Хасмагомедович</h1>
-        <p>Учусь в нефтяном университете, также дополнительно учусь на Frontend-разработчика в IT-INCUBATOR. Надеюсь свзать с этим свою жизнь</p>
-        <img src="images/image.png" alt="image">
+    <section class="main-section" data-cy="hw1-section-main-pre">
+        <h1 class="main-title">Бетильмерзаев Кунт Хасмагомедович</h1>
+        <p class="main-text">Учусь в нефтяном университете, также дополнительно учусь на Frontend-разработчика в IT-INCUBATOR. Надеюсь свзать с этим свою жизнь</p>
+        <img class="main-image" src="images/image.png" alt="image">
     </section>
 
-    <section data-cy="hw1-section-about-pre">
+    <section class="about-section" data-cy="hw1-section-about-pre">
         <select>
             <option>Грозный</option>
             <option selected>Урус-Мартан</option>
             <option>Махачкала</option>
         </select>
         <div data-cy="hw1-unordered-list-box-pre">
-            <h2>Любимые книги</h2>
-            <ul>
+            <h2 class="section-title">Любимые книги</h2>
+            <ul class="frameworks-list">
                 <li>Овод</li>
                 <li>Будда и Бунтарь</li>
                 <li>Цветы для Элджернона</li>
             </ul>
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
-            <h2>Любимые фильмы</h2>
-            <ol>
+            <h2 class="section-title">Любимые фильмы</h2>
+            <ol class="books-list">
                 <li>Драйв</li>
                 <li>Животное</li>
                 <li>Пока я жив</li>
             </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
-            <h2>Мои скиллы</h2>
-                <label>
+            <h2 class="section-title">Мои скиллы</h2>
+                <label class="label">
                     <input type="checkbox" checked>
                     HTML5
                 </label>
 
-                <label>
+                <label class="label">
                     <input type="checkbox">
                     CSS3
                 </label>
 
-                <label>
+                <label class="label">
                     <input type="checkbox" checked>
                     JS
                 </label>
         </div>
-        <input placeholder="Новый скилл" type="text">
-        <button>Добавить</button>
-        <hr>
+        <input class="text-field" placeholder="Новый скилл" type="text">
+        <button class="btn">Добавить</button>
+        <hr class="line">
 
-        <table border="" data-cy="hw-about-table-pre">
+        <table border="1" data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
@@ -95,7 +96,7 @@
     </section>
     <footer data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        <a href="https://it-incubator.io/">it-incubator</a>
+        <a class="footer-link" href="https://it-incubator.io/">it-incubator</a>
     </footer>
 
 </body>
